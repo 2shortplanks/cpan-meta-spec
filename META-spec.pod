@@ -461,7 +461,7 @@ An URL for a bug tracker (e.g. Bugzilla or RT queue) for this project.
 This entry describes the source control repository for this distribution.  It
 is a hashref with the following entries:
 
-  url  - a URL pointing to the repostiory itself
+  url  - a URL pointing to the repository itself
   web  - a URL pointing to a web front-end for the repository
   type - a lowercase string indicating the VCS used; e.g.: git, cvs, darcs
 
