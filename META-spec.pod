@@ -459,11 +459,15 @@ An URL for a bug tracker (e.g. Bugzilla or RT queue) for this project.
 =item repository
 
 This entry describes the source control repository for this distribution.  It
-is a hashref with the following entries:
+should be a hashref with the following entries:
 
   url  - a URL pointing to the repository itself
   web  - a URL pointing to a web front-end for the repository
   type - a lowercase string indicating the VCS used; e.g.: git, cvs, darcs
+
+If, instead of a hashref, this entry is a single string then it should be
+interpreted as a URL that points to some source control resource of undermined
+nature.
 
 =back
 
